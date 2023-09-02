@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Price Per Unit App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="pricePerUnit-app">
+        <h2>Price Per Unit Calculate App 🛍️</h2>
+        <div class="row">
+          <p>Price :</p>
+          <input type="text" id="input-price" />
+        </div>
+        <div class="row">
+          <p>Net weight(unit) :</p>
+          <input type="text" id="input-weight" />
+        </div>
+        <div class="row">
+          <p id="result">Price per unit :</p>
+          <button onclick="calculatePricePerUnit()">Calculate</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #52eaf5, #3477ad);
+  padding: 10px;
+}
+.pricePerUnit-app {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  /* margin: 100px 20px 20px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+.pricePerUnit-app h2 {
+  color: #002765;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 16px;
+  font-size: 16px;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px 20px;
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+ul li div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+ul li span {
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: auto;
+  cursor: pointer;
+}
+ul li span:hover {
+  background: #edeef0;
+}
